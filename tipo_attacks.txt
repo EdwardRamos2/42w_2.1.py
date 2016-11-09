@@ -1,0 +1,20 @@
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>   (+) ESCOLHA O TIPO DE ATTACK!            	                     >>
+>>                                                                   >>
+>>      Attack modes (numbers can still be used):                    >>
+>>                                                                   >>
+>>      --deauth      count : deauthenticate 1 or all stations (-0)  >>
+>>      --fakeauth    delay : fake authentication with AP (-1)       >>
+>>      --interactive       : interactive frame selection (-2)       >>
+>>      --arpreplay         : standard ARP-request replay (-3)       >>
+>>      --chopchop          : decrypt/chopchop WEP packet (-4)       >>
+>>      --fragment          : generates valid keystream   (-5)       >>
+>>      --caffe-latte       : query a client for new IVs  (-6)       >>
+>>      --cfrag             : fragments against a client  (-7)       >>
+>>      --migmode           : attacks WPA migration mode  (-8)       >>
+>>      --test              : tests injection and quality (-9)       >>
+>>                                                                   >>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
