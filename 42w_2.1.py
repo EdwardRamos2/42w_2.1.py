@@ -1,4 +1,9 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
+#Autor: Edward Ramos
+#Tool Hacker
+#08/04/2016 U.S.A
+#Version(1) 42w_1.1
+#Version(2) 42w_2.1   New Version
 
 import sys
 import os
