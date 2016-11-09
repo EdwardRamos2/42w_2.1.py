@@ -4,12 +4,9 @@
 #08/04/2016 U.S.A
 #Version(1) 42w_1.1
 #Version(2) 42w_2.1   New Version
-
 import sys
 import os
-
-#MENU OPCOES:
-def menu_opcoes():
+def menu_opcoes(): #MENU OPCOES:
     menu_wireless = open('menu.txt')
     print(menu_wireless.read())  
     opcao = input('')
@@ -18,9 +15,7 @@ def menu_opcoes():
     elif opcao == '2':
         sys.exit(1)
 menu_opcoes()
-
-#DOWN INTERFACES
-def download_interface():
+def download_interface(): #DOWN INTERFACES
     download_faces = open('interface.txt')
     print(download_faces.read())         
     opcao_interface = input('(+) Interface: ')
@@ -37,10 +32,7 @@ def download_interface():
         print('(+) Interface escolhida: (wlp0s20u1) Opcao: %s' % opcao_interface)
         os.system('ifconfig wlp0s20u1 down')
 download_interface()
-
-
-#TYPE ATTACK
-def tipo_attack():
+def tipo_attack(): #TYPE ATTACK
     opcao_attack = open('tipo_attacks.txt')
     print(opcao_attack.read())
     opcao_escolhida = input('>>> ')
