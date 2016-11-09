@@ -8,6 +8,7 @@
 import sys
 import os
 
+#MENU OPCOES:
 def menu_opcoes():
     menu_wireless = open('menu.txt')
     print(menu_wireless.read())  
@@ -18,6 +19,7 @@ def menu_opcoes():
         sys.exit(1)
 menu_opcoes()
 
+#DOWN INTERFACES
 def download_interface():
     download_faces = open('interface.txt')
     print(download_faces.read())         
@@ -36,6 +38,8 @@ def download_interface():
         os.system('ifconfig wlp0s20u1 down')
 download_interface()
 
+
+#TYPE ATTACK
 def tipo_attack():
     opcao_attack = open('tipo_attacks.txt')
     print(opcao_attack.read())
