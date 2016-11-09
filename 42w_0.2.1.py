@@ -2,8 +2,8 @@
 #Autor: Edward Ramos
 #Tool Hacker
 #08/04/2016 U.S.A
-#Version(1) 42w_1.1
-#Version(2) 42w_2.1   New Version
+#Version 0.1.0 Date 09-03-2016
+#Version(2) 42w_0.2.1 Date 11-09-2016  New Version
 import sys
 import os
 def menu_opcoes(): #MENU OPCOES:
