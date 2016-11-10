@@ -25,7 +25,6 @@ def download_interface():    #DOWN INTERFACES
     else:
        sys.exit(1)
 download_interface()
-download_interface()
 def tipo_attack(): #TYPE ATTACK
     opcao_attack = open('tipo_attacks.txt')
     print(opcao_attack.read())
