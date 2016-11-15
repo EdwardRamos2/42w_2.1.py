@@ -4,8 +4,7 @@
 #08/04/2016 U.S.A
 #Version 0.1.0 Date 09-03-2016
 #Version(2) 42w_0.2.2 Date 11-09-2016  New Version
-import sys
-import os
+import sys , os
 def menu_opcoes(): #MENU OPCOES:
     menu_wireless = open('menu.txt')
     print(menu_wireless.read())  
